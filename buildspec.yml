@@ -1,16 +1,4 @@
-version: 0.2
-
-phases:
-  install:
-    commands:
-      - echo "Installing dependencies..."
-      - pip install -r requirements.txt || true
-  build:
-    commands:
-      - echo "Building project..."
-      - mkdir output
-      - cp -r * output/
-artifacts:
-  files:
-    - '**/*'
-  base-directory: output
+build:
+  commands:
+    - echo "This will fail intentionally"
+    - exit 1
