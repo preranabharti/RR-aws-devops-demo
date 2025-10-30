@@ -1,4 +1,4 @@
 build:
   commands:
-    - echo "This will fail intentionally"
+    - echo "This will
     - exit 1
