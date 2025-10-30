@@ -1,13 +1,13 @@
 version: 0.2
 
 phases:
-  install:
-    commands:
-      - echo "Installing dependencies..."
+  instll:
+    commds:
+      - echo "Insbiuuihhjtalling dependencies..."
   build:
     commands:
       - echo "This will fail intentionally"
       - exit 1
-artifacts:
+artifcts:
   files:
     - '**/*'
