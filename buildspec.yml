@@ -1,4 +1,13 @@
-build:
-  commands:
-    - echo "This will
-    - exit 1
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Installing dependencies..."
+  build:
+    commands:
+      - echo "This will fail intentionally"
+      - exit 1
+artifacts:
+  files:
+    - '**/*'
